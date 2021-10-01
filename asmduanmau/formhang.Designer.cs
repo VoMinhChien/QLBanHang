@@ -196,6 +196,8 @@ namespace asmduanmau
             this.btnthem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btnthem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnthem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnthem.Image = global::asmduanmau.Properties.Resources.add;
+            this.btnthem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnthem.Location = new System.Drawing.Point(12, 473);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(96, 47);
@@ -210,6 +212,8 @@ namespace asmduanmau
             this.btnxoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btnxoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnxoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnxoa.Image = global::asmduanmau.Properties.Resources.remove;
+            this.btnxoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnxoa.Location = new System.Drawing.Point(114, 473);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(99, 47);
@@ -224,6 +228,8 @@ namespace asmduanmau
             this.btnsua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btnsua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnsua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsua.Image = global::asmduanmau.Properties.Resources.edit;
+            this.btnsua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnsua.Location = new System.Drawing.Point(233, 473);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(94, 47);
@@ -238,6 +244,8 @@ namespace asmduanmau
             this.btnluu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btnluu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnluu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnluu.Image = global::asmduanmau.Properties.Resources.save;
+            this.btnluu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnluu.Location = new System.Drawing.Point(342, 473);
             this.btnluu.Name = "btnluu";
             this.btnluu.Size = new System.Drawing.Size(92, 47);
@@ -252,11 +260,14 @@ namespace asmduanmau
             this.btnboqua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btnboqua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnboqua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnboqua.Image = global::asmduanmau.Properties.Resources.iconboqua;
+            this.btnboqua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnboqua.Location = new System.Drawing.Point(448, 473);
             this.btnboqua.Name = "btnboqua";
             this.btnboqua.Size = new System.Drawing.Size(96, 47);
             this.btnboqua.TabIndex = 20;
             this.btnboqua.Text = "BỎ QUA";
+            this.btnboqua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnboqua.UseVisualStyleBackColor = false;
             // 
             // btndanhsach
@@ -266,11 +277,14 @@ namespace asmduanmau
             this.btndanhsach.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btndanhsach.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btndanhsach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndanhsach.Image = global::asmduanmau.Properties.Resources.icondanhsah;
+            this.btndanhsach.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btndanhsach.Location = new System.Drawing.Point(559, 473);
             this.btndanhsach.Name = "btndanhsach";
             this.btndanhsach.Size = new System.Drawing.Size(106, 47);
             this.btndanhsach.TabIndex = 21;
             this.btndanhsach.Text = "DANH SÁCH";
+            this.btndanhsach.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btndanhsach.UseVisualStyleBackColor = false;
             // 
             // btndong
@@ -280,11 +294,14 @@ namespace asmduanmau
             this.btndong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Green;
             this.btndong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btndong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndong.Image = global::asmduanmau.Properties.Resources.cancel;
+            this.btndong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btndong.Location = new System.Drawing.Point(683, 473);
             this.btndong.Name = "btndong";
             this.btndong.Size = new System.Drawing.Size(105, 47);
             this.btndong.TabIndex = 22;
             this.btndong.Text = "ĐÓNG";
+            this.btndong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btndong.UseVisualStyleBackColor = false;
             // 
             // btntimkiem
