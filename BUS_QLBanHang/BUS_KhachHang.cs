@@ -20,6 +20,14 @@ namespace BUS_QLBanHang
         {
             return dalkhachhang.insertKhachhang(kh);
         }
+        public bool updatekhachhang(DTO_KhachHang kh)
+        {
+            return dalkhachhang.updateKhachhang(kh);
+        }
+        public bool deleteKhachhang(string dienthoai)
+        {
+            return dalkhachhang.deleteKhachhang(dienthoai);
+        }
     }
 
     

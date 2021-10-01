@@ -54,7 +54,7 @@ namespace asmduanmau
             {
                 dn.MdiParent = this;
                 dn.Show();
-                dn.FormClosed += new FormClosedEventHandler(formdangnhap_FormClosed);
+                dn.FormClosed += new FormClosedEventHandler(form_FormClosed);
             }
             else
             {
@@ -98,7 +98,7 @@ namespace asmduanmau
                 MessageBox.Show("The file is not found in the specified location");
             }
         }
-        void formdangnhap_FormClosed(object sender,FormClosedEventArgs e)
+        void form_FormClosed(object sender,FormClosedEventArgs e)
         {
             this.Refresh();
             formquantri_Load(sender, e);
@@ -148,7 +148,7 @@ namespace asmduanmau
                 dmk.MdiParent = this;
                
                 dmk.Show();
-                dmk.FormClosed += new FormClosedEventHandler(formdangnhap_FormClosed);
+                dmk.FormClosed += new FormClosedEventHandler(form_FormClosed);
             }
             else
             {
@@ -184,7 +184,7 @@ namespace asmduanmau
             }
             else
             {
-                ActiveChildForm("formdoimatkhau");
+                ActiveChildForm("formnhanvien");
             }
         }
         void formnhanvien_FormClosed(object sender, FormClosedEventArgs e)
@@ -195,17 +195,23 @@ namespace asmduanmau
 
         private void menustripkhachhang_Click(object sender, EventArgs e)
         {
-            formkhachhang fkh = new formkhachhang();
-            fkh.Show();
+            if (!checkExisForm("FmKhachhang"))
+            {
+                FmKhachhang fkh = new FmKhachhang();
+                fkh.MdiParent = this;
+
+                fkh.Show();
+                fkh.FormClosed += new FormClosedEventHandler(formnhanvien_FormClosed);
+            }
+            else
+            {
+                ActiveChildForm("FmKhachhang");
+            }
         }
 
 
 
 
-        //void formdoimatkhau_FormClose(object sender, EventArgs e)
-        //{
-        //    this.Refresh();
-        //    formquantri_Load(sender, e);
-        //}
+        
     }
 }

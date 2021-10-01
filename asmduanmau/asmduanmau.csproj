@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FmKhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmKhachhang.Designer.cs">
+      <DependentUpon>FmKhachhang.cs</DependentUpon>
+    </Compile>
     <Compile Include="formdangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,29 +70,11 @@
     <Compile Include="formhang.Designer.cs">
       <DependentUpon>formhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="formkhachhang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formkhachhang.Designer.cs">
-      <DependentUpon>formkhachhang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formmenuchinh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formmenuchinh.Designer.cs">
-      <DependentUpon>formmenuchinh.cs</DependentUpon>
-    </Compile>
     <Compile Include="formnhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formnhanvien.Designer.cs">
       <DependentUpon>formnhanvien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formnhanvienthuong.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formnhanvienthuong.Designer.cs">
-      <DependentUpon>formnhanvienthuong.cs</DependentUpon>
     </Compile>
     <Compile Include="formmain.cs">
       <SubType>Form</SubType>
@@ -102,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmKhachhang.resx">
+      <DependentUpon>FmKhachhang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formdangnhap.resx">
       <DependentUpon>formdangnhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,17 +102,8 @@
     <EmbeddedResource Include="formhang.resx">
       <DependentUpon>formhang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formkhachhang.resx">
-      <DependentUpon>formkhachhang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formmenuchinh.resx">
-      <DependentUpon>formmenuchinh.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="formnhanvien.resx">
       <DependentUpon>formnhanvien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formnhanvienthuong.resx">
-      <DependentUpon>formnhanvienthuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formmain.resx">
       <DependentUpon>formmain.cs</DependentUpon>

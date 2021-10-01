@@ -12,8 +12,6 @@ E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.exe
 E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.pdb
 E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.formhang.resources
 E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.formkhachhang.resources
-E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.formmenuchinh.resources
-E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.formnhanvienthuong.resources
 E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.formthongke.resources
 E:\DuAnMau\asm\asmduanmau\asmduanmau\bin\Debug\BUS_QLBanHang.dll
 E:\DuAnMau\asm\asmduanmau\asmduanmau\bin\Debug\DTO_QLBanHang.dll
@@ -23,3 +21,4 @@ E:\DuAnMau\asm\asmduanmau\asmduanmau\bin\Debug\DTO_QLBanHang.pdb
 E:\DuAnMau\asm\asmduanmau\asmduanmau\bin\Debug\DAL_QLBanHang.pdb
 E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.csproj.CopyComplete
 E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.formmain.resources
+E:\DuAnMau\asm\asmduanmau\asmduanmau\obj\Debug\asmduanmau.FmKhachhang.resources

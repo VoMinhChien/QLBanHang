@@ -30,7 +30,7 @@ namespace DAL_QLBanHang
                 _conn.Close();
             }
         }
-       
+
         public bool insertKhachhang(DTO_KhachHang kh)
         {
             try
@@ -40,16 +40,64 @@ namespace DAL_QLBanHang
                 cmd.Connection = _conn;
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "sp_savekhachhang";
-                cmd.Parameters.AddWithValue("sdt", kh.Dienthoai);              
+                cmd.Parameters.AddWithValue("sdt", kh.Dienthoai);
                 cmd.Parameters.AddWithValue("tenkhachhang", kh.Tenkhach);
                 cmd.Parameters.AddWithValue("diachikhachhang", kh.Diachi);
                 cmd.Parameters.AddWithValue("gioitinh", kh.Phai);
                 cmd.Parameters.AddWithValue("emailnhanvien", kh.EmailNV);
-               // cmd.Parameters.AddWithValue("emailnhanvien", nv.Email); //
+                // cmd.Parameters.AddWithValue("emailnhanvien", nv.Email); //
                 if (cmd.ExecuteNonQuery() > 0)
                 {
                     return true;
                 }
+            }
+            finally
+            {
+                _conn.Close();
+            }
+            return false;
+        }
+        public bool updateKhachhang(DTO_KhachHang kh)
+        {
+            try
+            {
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = _conn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "sp_updatekhachhang";
+                cmd.Parameters.AddWithValue("sdt", kh.Dienthoai);
+                cmd.Parameters.AddWithValue("tenkhachhang", kh.Tenkhach);
+                cmd.Parameters.AddWithValue("diachikhachhang", kh.Diachi);
+                cmd.Parameters.AddWithValue("gioitinh", kh.Phai);
+                cmd.Parameters.AddWithValue("emailnhanvien", kh.EmailNV);
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    return true;
+                }
+            }
+            finally
+            {
+                _conn.Close();
+
+            }
+            return false;
+        }
+        public bool deleteKhachhang(string dienthoai)
+        {
+            try
+            {
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "sp_deletekhachhang";
+                cmd.Parameters.AddWithValue("sdt", dienthoai);
+                cmd.Connection = _conn;
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    return true;
+                }
+
             }
             finally
             {
