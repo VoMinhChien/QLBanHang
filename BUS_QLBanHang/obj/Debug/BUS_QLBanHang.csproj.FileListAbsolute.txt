@@ -1,0 +1,11 @@
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\bin\Debug\BUS_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\bin\Debug\BUS_QLBanHang.pdb
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\bin\Debug\DAL_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\bin\Debug\DTO_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\bin\Debug\DAL_QLBanHang.pdb
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\bin\Debug\DTO_QLBanHang.pdb
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.csproj.AssemblyReference.cache
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.csproj.CoreCompileInputs.cache
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.csproj.CopyComplete
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.pdb

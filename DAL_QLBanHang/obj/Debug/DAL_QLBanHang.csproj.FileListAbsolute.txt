@@ -1,0 +1,9 @@
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\bin\Debug\DAL_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\bin\Debug\DAL_QLBanHang.pdb
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\bin\Debug\DTO_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\bin\Debug\DTO_QLBanHang.pdb
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.AssemblyReference.cache
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.CoreCompileInputs.cache
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.CopyComplete
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.dll
+E:\DuAnMau\asm\asmduanmau\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.pdb
