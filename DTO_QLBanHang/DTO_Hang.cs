@@ -15,6 +15,10 @@ namespace DTO_QLBanHang
         private string hinhanh;
         private string ghichu;
         private string manv;
+        public bool a()
+        {
+            return true;
+        }
         public string Tenhang
         {
             get
